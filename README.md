@@ -16,11 +16,9 @@ Most command line options are the same with LIBSVM 3.2.1, except the following o
 -o: Set the termination accuracy of CCCP iterations;
 -e: Set the termination accuracy of inner decomposition method;
 Example:
-==============================================================
 ./svm-train -s 5 -h 0 -c 16 -g 0.03125 -y 0.01 -i 0.5 australian
 CCCP outer optimization finished, #number of outer iters = 3
 Percentage of SVs:48.000000  
 The training time is 0.011260s
 ./svm-predict australian.t australian.model australian.t.predict
 Accuracy = 86.9388% (426/490) (classification)
-==============================================================
